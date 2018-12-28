@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/space" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/hikerTextView"
         android:layout_width="344dp"
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
@@ -30,5 +30,65 @@
         android:textSize="40sp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lattitudeTextView"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        android:text="Lattitude : 20.0933"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hikerTextView" />
+
+    <TextView
+        android:id="@+id/longitudeTextView"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Longitude : 40.0933"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lattitudeTextView" />
+
+    <TextView
+        android:id="@+id/accuracyTextView"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Accuracy : 20"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/longitudeTextView" />
+
+    <TextView
+        android:id="@+id/altituteTextView"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Altitude : 40"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accuracyTextView" />
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="226dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Address : \n some address line"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/altituteTextView" />
 
 </android.support.constraint.ConstraintLayout>
