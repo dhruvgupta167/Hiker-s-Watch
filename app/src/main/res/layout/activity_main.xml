@@ -33,7 +33,7 @@
 
     <TextView
         android:id="@+id/lattitudeTextView"
-        android:layout_width="232dp"
+        android:layout_width="346dp"
         android:layout_height="34dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="50dp"
@@ -45,7 +45,7 @@
 
     <TextView
         android:id="@+id/longitudeTextView"
-        android:layout_width="232dp"
+        android:layout_width="345dp"
         android:layout_height="34dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
@@ -57,7 +57,7 @@
 
     <TextView
         android:id="@+id/accuracyTextView"
-        android:layout_width="232dp"
+        android:layout_width="343dp"
         android:layout_height="34dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
@@ -69,7 +69,7 @@
 
     <TextView
         android:id="@+id/altituteTextView"
-        android:layout_width="232dp"
+        android:layout_width="342dp"
         android:layout_height="34dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
@@ -81,8 +81,8 @@
 
     <TextView
         android:id="@+id/addressTextView"
-        android:layout_width="226dp"
-        android:layout_height="69dp"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:text="Address : \n some address line"
